@@ -1,12 +1,11 @@
 body {
     margin: 0 auto;
     padding: 0
-    width: 40%
 }
 #vorname, #nachname {
     display: inline-block;
 }
-#email, #thema, #text, label {
+#email, #input-thema, #text, label {
     display: block
 }
 label:first-of-type::after, label:nth-of-type(2)::after, label:last-of-type::after {
@@ -26,21 +25,24 @@ label {
     color: white;
     background: lightseagreen;
     margin-top: 1em;
-    width: 36%;
+    width: 75%;
     border: none
 }
 fieldset {
     margin:0;
-    width: 60%;
+    width: 30%;
     border: none;
     margin-left: 40%
 }
-#input-thema, #email, #text {
-    width: 36%
+#email, #text {
+    width: 73%
 }
 #text:hover, #email:hover, #vorname:hover, #nachname:hover {
     border: 1px solid lightseagreen
 }
 #button:hover {
     background: black;
+}
+#thema{
+    width: 75%
 }
