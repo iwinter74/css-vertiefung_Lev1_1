@@ -26,7 +26,7 @@ label {
     color: white;
     background: lightseagreen;
     margin-top: 1em;
-    width: 60%;
+    width: 36%;
     border: none
 }
 fieldset {
@@ -37,4 +37,10 @@ fieldset {
 }
 #input-thema, #email, #text {
     width: 36%
+}
+#text:hover, #email:hover, #vorname:hover, #nachname:hover {
+    border: 1px solid lightseagreen
+}
+#button:hover {
+    background: black;
 }
