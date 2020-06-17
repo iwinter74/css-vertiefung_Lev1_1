@@ -1,0 +1,40 @@
+body {
+    margin: 0 auto;
+    padding: 0
+    width: 40%
+}
+#vorname, #nachname {
+    display: inline-block;
+}
+#email, #thema, #text, label {
+    display: block
+}
+label:first-of-type::after, label:nth-of-type(2)::after, label:last-of-type::after {
+    content: " *";
+    color: red
+}
+label {
+    font-weight: 500;
+}
+form {
+    padding-top: 2em;
+}
+label {
+    padding-top: 1em;
+}
+#button {
+    color: white;
+    background: lightseagreen;
+    margin-top: 1em;
+    width: 60%;
+    border: none
+}
+fieldset {
+    margin:0;
+    width: 60%;
+    border: none;
+    margin-left: 40%
+}
+#input-thema, #email, #text {
+    width: 36%
+}
