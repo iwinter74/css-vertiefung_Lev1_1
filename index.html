@@ -14,13 +14,14 @@
         <input type="text" name="" id="nachname" required placeholder="Nachname">
         <label for="">Email</label>
         <input type="email" name="" id="email" required>
-        <label for="">Thema</label>
-        <input list="thema" id="input-thema">
-        <datalist id="thema">
-            <option value="General"></option>
-            <option value="Advertise" selected></option>
-            <option value="Partnership"></option>
-        </datalist>
+        <label for="thema">Thema</label>
+        <select name="thema" id="thema">
+        <!-- <input list="thema" id="input-thema">
+        <datalist id="thema"> -->
+            <option value="General">General</option>
+            <option value="Advertise" selected>Advertise</option>
+            <option value="Partnership">Partnership</option>
+        </select>
         <label for="">Nachricht</label>
         <textarea name="" id="text" cols="30" rows="10" required></textarea>
         <input type="button" id="button" value="Submit">
